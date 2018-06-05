@@ -1,0 +1,18 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: pqLWhTNrZdhDhGRhIaJuvd4gNCwAw
+ MHS8DgAVRPBXtk=
+SHA-256-Digest-Manifest: +cqVNmB1MCC3n77cF5uhSfG4vszWHSUOxfRnOuBnsWc=
+Created-By: 1.8.0_151 (Oracle Corporation)
+
+Name: codecheck.log
+SHA-256-Digest: WdMZm45ATJ0+en4Xp0Rptk2gWvs6M3gfZhViOpwTOuQ=
+
+Name: report.html
+SHA-256-Digest: f141exsxqwghSa6g7prRa5G1Cpq7+NMhiBT7YPiqWjY=
+
+Name: MontyHall.cpp
+SHA-256-Digest: QVInJKjPFQOFU/bFWajmds+KICH4o23hBejzl/Phjyo=
+
+Name: codecheck.out
+SHA-256-Digest: b52xXFI58Bk2vYsOBFW4SeAtUihwAfI35pqcs+KFu0w=
+

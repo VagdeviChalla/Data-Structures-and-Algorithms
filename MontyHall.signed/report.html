@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<meta name="Submission" content="/tmp/codecheck/18020901153926997395874456293"/>
+<meta name="Level" content="1"/>
+<meta name="Time" content="2018-02-09T01:15:02Z"/>
+<meta name="ID" content="MontyHall"/>
+<meta name="User" content="18020619226yrw87osfl1qnr776ieoza32k"/>
+<meta name="Problem" content="ext/18020110574dbzqvoa8mkc2sjc1c5w16h6f"/>
+<meta name="Elapsed" content="1175 ms"/>
+<style type="text/css">
+.header {font-weight: bold; font-size: 1.2em; }
+.item {font-weight: bold;}
+.pass {color: green;}
+.fail {color: red;}
+.note {color: blue; font-weight: bold;}
+table.file td {padding-right: 1em; background: #FFF; }
+.linenumber {color: gray;}
+.footnote {font-size: 0.7em;}
+table {font-size: 0.9em;}
+td, th { background: #EEE; margin: 0.5em; padding: 0.25em;}
+table.output td {vertical-align: top;}
+div.footnotes { border-top: 1px solid gray; padding-top: 0.5em; }
+</style>
+<title>Report</title>
+</head>
+<body>
+<p class="header run">Testing MontyHall.cpp</p>
+<div class="run">
+<pre class="output">
+</pre>
+<table class="output">
+<tr><th>Actual output</th><th>Expected output</th></tr>
+<tr><td><pre><span class="fail">  #   Carhere  Firstchoice     Opendoor   SecondChoice    Win first   Win second</span>
+<span class="fail">  1         1            1            2              3          yes             </span>
+<span class="fail">  2         3            1            2              3                       yes</span>
+<span class="fail">  3         2            2            3              1          yes             </span>
+<span class="fail">  4         3            1            2              3                       yes</span>
+<span class="fail">  5         1            2            3              1                       yes</span>
+<span class="fail">  6         2            1            3              2                       yes</span>
+<span class="fail">  7         2            3            1              2                       yes</span>
+<span class="fail">  8         1            1            2              3          yes             </span>
+<span class="fail">  9         1            2            3              1                       yes</span>
+<span class="fail"> 10         1            1            3              2          yes             </span>
+<span class="fail"> 11         1            1            2              3          yes             </span>
+<span class="fail"> 12         2            1            3              2                       yes</span>
+<span class="fail"> 13         1            3            2              1                       yes</span>
+<span class="fail"> 14         1            1            2              3          yes             </span>
+<span class="fail"> 15         1            2            3              1                       yes</span>
+<span class="fail"> 16         3            3            1              2          yes             </span>
+<span class="fail"> 17         3            3            1              2          yes             </span>
+<span class="fail"> 18         3            3            1              2          yes             </span>
+<span class="fail"> 19         1            3            2              1                       yes</span>
+<span class="fail"> 20         1            3            2              1                       yes</span>
+<span class="fail"> 21         2            1            3              2                       yes</span>
+<span class="fail"> 22         3            2            1              3                       yes</span>
+<span class="fail"> 23         2            2            3              1          yes             </span>
+<span class="fail"> 24         3            2            1              3                       yes</span>
+<span class="fail"> 25         1            1            3              2          yes             </span>
+<span class="fail"> 26         2            3            1              2                       yes</span>
+<span class="fail"> 27         3            2            1              3                       yes</span>
+<span class="fail"> 28         2            2            3              1          yes             </span>
+<span class="fail"> 29         3            1            2              3                       yes</span>
+<span class="fail"> 30         3            1            2              3                       yes</span>
+<span class="fail"> 31         3            2            1              3                       yes</span>
+<span class="fail"> 32         2            3            1              2                       yes</span>
+<span class="fail"> 33         2            3            1              2                       yes</span>
+<span class="fail"> 34         2            1            3              2                       yes</span>
+<span class="fail"> 35         1            3            2              1                       yes</span>
+<span class="fail"> 36         3            1            2              3                       yes</span>
+<span class="fail"> 37         2            2            3              1          yes             </span>
+<span class="fail"> 38         3            3            2              1          yes             </span>
+<span class="fail"> 39         2            3            1              2                       yes</span>
+<span class="fail"> 40         3            2            1              3                       yes</span>
+<span class="fail"> 41         1            1            3              2          yes             </span>
+<span class="fail"> 42         1            3            2              1                       yes</span>
+<span class="fail"> 43         3            3            1              2          yes             </span>
+<span class="fail"> 44         1            3            2              1                       yes</span>
+<span class="fail"> 45         1            2            3              1                       yes</span>
+<span class="fail"> 46         1            2            3              1                       yes</span>
+<span class="fail"> 47         3            3            2              1          yes             </span>
+<span class="fail"> 48         2            3            1              2                       yes</span>
+<span class="fail"> 49         1            3            2              1                       yes</span>
+<span class="fail"> 50         2            1            3              2                       yes</span>
+<span class="fail"> 51         3            3            1              2          yes             </span>
+<span class="fail"> 52         2            1            3              2                       yes</span>
+<span class="fail"> 53         3            2            1              3                       yes</span>
+<span class="fail"> 54         2            2            1              3          yes             </span>
+<span class="fail"> 55         1            3            2              1                       yes</span>
+<span class="fail"> 56         1            2            3              1                       yes</span>
+<span class="fail"> 57         2            2            1              3          yes             </span>
+<span class="fail"> 58         3            3            1              2          yes             </span>
+<span class="fail"> 59         1            2            3              1                       yes</span>
+<span class="fail"> 60         1            3            2              1                       yes</span>
+<span class="fail"> 61         3            1            2              3                       yes</span>
+<span class="fail"> 62         2            2            1              3          yes             </span>
+<span class="fail"> 63         2            3            1              2                       yes</span>
+<span class="fail"> 64         1            2            3              1                       yes</span>
+<span class="fail"> 65         3            2            1              3                       yes</span>
+<span class="fail"> 66         1            2            3              1                       yes</span>
+<span class="fail"> 67         3            2            1              3                       yes</span>
+<span class="fail"> 68         3            2            1              3                       yes</span>
+<span class="fail"> 69         2            3            1              2                       yes</span>
+<span class="fail"> 70         3            1            2              3                       yes</span>
+<span class="fail"> 71         3            1            2              3                       yes</span>
+<span class="fail"> 72         2            2            3              1          yes             </span>
+<span class="fail"> 73         2            2            1              3          yes             </span>
+<span class="fail"> 74         2            1            3              2                       yes</span>
+<span class="fail"> 75         1            1            3              2          yes             </span>
+<span class="fail"> 76         1            2            3              1                       yes</span>
+<span class="fail"> 77         2            2            3              1          yes             </span>
+<span class="fail"> 78         3            3            2              1          yes             </span>
+<span class="fail"> 79         1            2            3              1                       yes</span>
+<span class="fail"> 80         1            3            2              1                       yes</span>
+<span class="fail"> 81         3            3            1              2          yes             </span>
+<span class="fail"> 82         2            1            3              2                       yes</span>
+<span class="fail"> 83         2            1            3              2                       yes</span>
+<span class="fail"> 84         2            3            1              2                       yes</span>
+<span class="fail"> 85         1            2            3              1                       yes</span>
+<span class="fail"> 86         1            2            3              1                       yes</span>
+<span class="fail"> 87         1            2            3              1                       yes</span>
+<span class="fail"> 88         3            2            1              3                       yes</span>
+<span class="fail"> 89         3            2            1              3                       yes</span>
+<span class="fail"> 90         1            1            2              3          yes             </span>
+<span class="fail"> 91         3            2            1              3                       yes</span>
+<span class="fail"> 92         2            2            1              3          yes             </span>
+<span class="fail"> 93         3            1            2              3                       yes</span>
+<span class="fail"> 94         1            1            2              3          yes             </span>
+<span class="fail"> 95         3            1            2              3                       yes</span>
+<span class="fail"> 96         1            3            2              1                       yes</span>
+<span class="fail"> 97         2            2            1              3          yes             </span>
+<span class="fail"> 98         2            2            1              3          yes             </span>
+<span class="fail"> 99         1            2            3              1                       yes</span>
+<span class="fail">100         2            1            3              2                       yes</span>
+<span class="fail">33 wins if stay with the first choice</span>
+<span class="fail">67 wins if switch to the second choice</span>
+<span class="fail">win ratio of switch over stay: 2.0303</span>
+<span class="fail"></span>
+<span class="fail"></span>
+<span class="fail"></span>
+<span class="fail"></span>
+</pre></td>
+<td><pre>   #     Car   First  Opened  Second    Win    Win
+        here  choice    door  choice  first second
+
+   1       1       1       3       2    yes
+   2       3       2       1       3           yes
+   3       1       1       3       2    yes
+   4       3       1       2       3           yes
+   5       3       2       1       3           yes
+   6       3       1       2       3           yes
+   7       3       1       2       3           yes
+   8       1       3       2       1           yes
+   9       1       2       3       1           yes
+  10       3       3       2       1    yes
+  11       2       3       1       2           yes
+  12       1       1       2       3    yes
+  13       1       1       2       3    yes
+  14       3       1       2       3           yes
+  15       3       2       1       3           yes
+  16       3       2       1       3           yes
+  17       1       1       3       2    yes
+  18       1       1       3       2    yes
+  19       3       3       1       2    yes
+  20       3       3       2       1    yes
+  21       1       1       3       2    yes
+  22       2       2       3       1    yes
+  23       2       1       3       2           yes
+  24       3       3       1       2    yes
+  25       1       3       2       1           yes
+  26       1       3       2       1           yes
+  27       2       1       3       2           yes
+  28       2       2       1       3    yes
+  29       1       1       2       3    yes
+  30       2       2       1       3    yes
+  31       3       1       2       3           yes
+  32       3       3       2       1    yes
+  33       1       1       2       3    yes
+  34       1       2       3       1           yes
+  35       1       3       2       1           yes
+  36       1       1       2       3    yes
+  37       3       3       2       1    yes
+  38       1       2       3       1           yes
+  39       3       3       1       2    yes
+  40       1       2       3       1           yes
+  41       2       3       1       2           yes
+  42       2       1       3       2           yes
+  43       3       2       1       3           yes
+  44       3       1       2       3           yes
+  45       1       2       3       1           yes
+  46       2       3       1       2           yes
+  47       3       2       1       3           yes
+  48       3       3       2       1    yes
+  49       3       2       1       3           yes
+  50       3       2       1       3           yes
+  51       1       3       2       1           yes
+  52       2       3       1       2           yes
+  53       1       2       3       1           yes
+  54       2       1       3       2           yes
+  55       2       2       3       1    yes
+  56       1       2       3       1           yes
+  57       3       1       2       3           yes
+  58       3       3       1       2    yes
+  59       1       1       3       2    yes
+  60       2       2       3       1    yes
+  61       3       1       2       3           yes
+  62       2       2       1       3    yes
+  63       1       1       2       3    yes
+  64       3       3       2       1    yes
+  65       3       1       2       3           yes
+  66       1       2       3       1           yes
+  67       2       3       1       2           yes
+  68       2       1       3       2           yes
+  69       3       2       1       3           yes
+  70       3       1       2       3           yes
+  71       2       1       3       2           yes
+  72       3       2       1       3           yes
+  73       2       1       3       2           yes
+  74       2       3       1       2           yes
+  75       1       1       3       2    yes
+  76       1       3       2       1           yes
+  77       1       3       2       1           yes
+  78       2       3       1       2           yes
+  79       3       3       2       1    yes
+  80       1       3       2       1           yes
+  81       3       2       1       3           yes
+  82       2       3       1       2           yes
+  83       3       1       2       3           yes
+  84       3       2       1       3           yes
+  85       2       3       1       2           yes
+  86       2       3       1       2           yes
+  87       1       2       3       1           yes
+  88       1       1       3       2    yes
+  89       3       1       2       3           yes
+  90       1       3       2       1           yes
+  91       3       1       2       3           yes
+  92       1       3       2       1           yes
+  93       1       3       2       1           yes
+  94       3       3       1       2    yes
+  95       2       3       1       2           yes
+  96       1       2       3       1           yes
+  97       3       2       1       3           yes
+  98       1       2       3       1           yes
+  99       1       3       2       1           yes
+ 100       3       3       1       2    yes
+
+  33 wins if stay with the first choice
+  67 wins if switch to the second choice
+
+Win ratio of switch over stay: 2.0
+</pre></td>
+</tr>
+</table>
+<span class="fail">fail </span></div>
+<p class="header studentFiles">Student files</p>
+<div class="studentFiles">
+<p class="caption">MontyHall.cpp:</p>
+<pre>//FileName:Montyhall.cpp
+//Author:VagdeviChalla
+//Assignment Number:2
+//Description:Monty Hall Problem
+//Last changed:02/08/2018
+
+#include&lt;cstdlib&gt;
+#include&lt;ctime&gt;
+#include&lt;iostream&gt;
+#include&lt;iomanip&gt;
+
+using namespace std;
+const int simulation_Count=100;
+
+
+int door_firstChoice(int first_Choice){
+	
+	return first_Choice;
+}
+
+//validating the randomly generated door and finding the correctly opened door
+
+int opened_Door(int door_opened,int first_Choice,int carhere){
+	
+	do{
+		 door_opened = rand() % 3 + 1;
+	}
+	while(door_opened == first_Choice || door_opened == carhere); 
+	
+	return door_opened;
+}  
+
+//validating second choice and finding the correct second choice
+int door_secondChoice(int second_Choice, int first_choice, int opened_door){
+    do{
+		second_Choice = rand() % 3 + 1;
+	}
+	while(second_Choice == opened_door || second_Choice == first_choice); 
+	return 	second_Choice;
+}
+
+int main () {
+	
+string winFirst="";
+string winSecond="";
+srand(time(0));
+int firstwinCounter=0;
+int seconwinCounter=0;
+
+cout&lt;&lt; setw(3) &lt;&lt; "#" &lt;&lt; setw(10) &lt;&lt; "Carhere" &lt;&lt; setw(13) &lt;&lt; "Firstchoice" &lt;&lt; setw(13) &lt;&lt; "Opendoor" &lt;&lt; setw(15) &lt;&lt; "SecondChoice" &lt;&lt; setw(13) &lt;&lt; "Win first" &lt;&lt; setw(13) &lt;&lt; "Win second" &lt;&lt;endl;	
+for(int i=1;i&lt;=simulation_Count;i++){
+	
+	//Randomly generating door numbers for car,opened door,door that selected firts and second
+	int carhere = rand() % 3 + 1;
+	int first_Choice = rand() % 3 + 1;
+	int door_opened = rand() % 3 + 1;
+	int second_Choice = rand() % 3 + 1;
+	
+	//doing validation for randomly generated doors and storing those values in variables
+	int firstchoice = door_firstChoice(first_Choice);
+	int openeddoor = opened_Door(door_opened,first_Choice,carhere);
+	int secondchoice = door_secondChoice(second_Choice,firstchoice,openeddoor);
+	
+	//determing the win based on stay and switch
+	if(firstchoice == carhere){
+		winFirst="yes";	
+		firstwinCounter++;
+		
+	}
+	if(secondchoice == carhere){
+		 winSecond="yes";
+		 seconwinCounter++;
+	}	
+
+//Printing the simulation output	
+cout &lt;&lt; setw(3) &lt;&lt; i &lt;&lt; setw(10) &lt;&lt; carhere &lt;&lt; setw(13) &lt;&lt; firstchoice &lt;&lt; setw(13) &lt;&lt; openeddoor &lt;&lt; setw(15) &lt;&lt; secondchoice &lt;&lt; setw(13) &lt;&lt; winFirst &lt;&lt;  setw(13) &lt;&lt; winSecond &lt;&lt;endl;
+winFirst="";
+winSecond="";	
+}
+
+cout &lt;&lt; firstwinCounter &lt;&lt; " wins if stay with the first choice" &lt;&lt;endl;
+cout &lt;&lt; seconwinCounter &lt;&lt; " wins if switch to the second choice" &lt;&lt; endl;
+
+//finding switch over stay ratio
+double winSwitchratio=static_cast&lt;double&gt;(seconwinCounter)/firstwinCounter;
+
+cout&lt;&lt;"win ratio of switch over stay: " &lt;&lt; winSwitchratio&lt;&lt;endl;
+
+}
+	
+</pre>
+</div>
+<p class="header score">Score</p>
+<div class="score">
+<p class="score">0/1</p>
+</div>
+<div class="footnotes"><div class="footnote">2018-02-09T01:15:02Z</div>
+</div>
+</body></html>

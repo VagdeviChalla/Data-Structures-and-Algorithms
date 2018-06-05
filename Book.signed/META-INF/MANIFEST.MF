@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Created-By: 1.8.0_151 (Oracle Corporation)
+
+Name: BookApp.cpp
+SHA-256-Digest: sHhiQaIcvFXp4rv0GpgujfHlrSuQvVv2MbAOECBaWPo=
+
+Name: codecheck.log
+SHA-256-Digest: JxM0n606ksve3cAs92lug7M04Qm//ErG1uTKQATSaDY=
+
+Name: Book.h
+SHA-256-Digest: vxRZluAUVI4+Rua12FkkNFkNaJlk4R39W7/8LRfgf04=
+
+Name: report.html
+SHA-256-Digest: KQV3xym472h/Y3uObpazrFsqNOQO3Fi72cv01PyZliw=
+
+Name: codecheck.out
+SHA-256-Digest: 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+
+Name: Book.cpp
+SHA-256-Digest: ZGOLwpWJBxRTHDN8li9JOGJdfI4spdE6dysUiFmyPUc=
+

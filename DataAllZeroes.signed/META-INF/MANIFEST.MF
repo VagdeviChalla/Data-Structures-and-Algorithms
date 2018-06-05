@@ -1,0 +1,57 @@
+Manifest-Version: 1.0
+Created-By: 1.8.0_162 (Oracle Corporation)
+
+Name: ShellSortSuboptimal.cpp
+SHA-256-Digest: yQBpcbQJQ4IQHc6BXDn+MBQYOBIQ+GCDCtDv39HJs7I=
+
+Name: codecheck.log
+SHA-256-Digest: A5Y6d+hELBO4ROwn3rQgKVkX24SPcfYa9xL2psHOlIg=
+
+Name: DataSorted.cpp
+SHA-256-Digest: xJPPl5CAdQNJFjmao9Z09V74mGPcROnrYaAhdgiiuQI=
+
+Name: DataReverseSorted.cpp
+SHA-256-Digest: ftZqmWLWN9Dk39AjKmdR4TWU6XfscdEYBNZi4B2t8A0=
+
+Name: InsertionSort.cpp
+SHA-256-Digest: 8ugcinMMxjbXwK2tULvl3t312RfuKUqKi8R0NKpR28o=
+
+Name: codecheck.out
+SHA-256-Digest: 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+
+Name: Node.cpp
+SHA-256-Digest: vTHu3os3B2wOrdpL2TyLM7ClC/LdwQnFMcq5e+RD14w=
+
+Name: QuickSorter.cpp
+SHA-256-Digest: NkxfbHRot3VwxFBz6Rb836gCTcl/ViB1RzkXGjUFCeE=
+
+Name: MergeSort.cpp
+SHA-256-Digest: n8TQ2RF+P5/4+y1XOdjHyNG/M0uSV7YXDFcF3JVrb9Q=
+
+Name: Element.cpp
+SHA-256-Digest: G2vDZC3WKnwkYSErntzbOjmyGzTJDp53QQ2ZQczYV4s=
+
+Name: QuickSortOptimal.cpp
+SHA-256-Digest: mX/Ahev6bi6ht4NKh1bZ6vy3lbTfBE8yKkLB++fFR0E=
+
+Name: report.html
+SHA-256-Digest: d04r9TaoUBdbCAA7Rnj4/RaztoyT/sNxR7zjIc+Rbrc=
+
+Name: DataGenerator.cpp
+SHA-256-Digest: qPdRuO+1FQwQmzXBSvGCWvo4r871PDWIIIVERx6811s=
+
+Name: QuickSortSuboptimal.cpp
+SHA-256-Digest: vGZ6fgMvFQMKMd1BGewth8v1vxF8BKzH9RAmLutnYeI=
+
+Name: ShellSortOptimal.cpp
+SHA-256-Digest: 4ytzWyeddSLHJ1Be4brcKb/XLX+OxrBhjpVz6sgWJME=
+
+Name: DataRandom.cpp
+SHA-256-Digest: 2nN7WgW6fHkYJ20Liv9vFNiZ+JqKmVyaX0U3LX53GTo=
+
+Name: LinkedList.cpp
+SHA-256-Digest: 3Yk4Fd11A1XWQrrgqQTGM9QdZEcO+ThsqtWvg/kA5u0=
+
+Name: DataAllZeroes.cpp
+SHA-256-Digest: OLiHTv+rbHx+mt7oOCinvLzM/7KV/vsNSCfQE2vNS/U=
+

@@ -1,0 +1,347 @@
+**********************
+* BINARY SEARCH TREE *
+**********************
+
+N = 10,000
+
+
+INSERTION
+
+
+        PROBE COUNTS      COMPARE COUNTS     ELAPSED TIME (in microseconds)
+             287,125             142,201                 316
+
+
+SEARCH
+
+
+        PROBE COUNTS      COMPARE COUNTS     ELAPSED TIME (in microseconds)
+             138,563             158,561                   0
+
+
+N = 20,000
+
+
+INSERTION
+
+
+        PROBE COUNTS      COMPARE COUNTS     ELAPSED TIME (in microseconds)
+             848,187             426,393                 347
+
+
+SEARCH
+
+
+        PROBE COUNTS      COMPARE COUNTS     ELAPSED TIME (in microseconds)
+             414,094             454,092                 104
+
+
+N = 30,000
+
+
+INSERTION
+
+
+        PROBE COUNTS      COMPARE COUNTS     ELAPSED TIME (in microseconds)
+           1,633,975             822,939               1,506
+
+
+SEARCH
+
+
+        PROBE COUNTS      COMPARE COUNTS     ELAPSED TIME (in microseconds)
+             817,132             870,225                 767
+
+
+N = 40,000
+
+
+INSERTION
+
+
+        PROBE COUNTS      COMPARE COUNTS     ELAPSED TIME (in microseconds)
+           2,729,875           1,374,263              10,125
+
+
+SEARCH
+
+
+        PROBE COUNTS      COMPARE COUNTS     ELAPSED TIME (in microseconds)
+           1,344,938           1,424,936               1,001
+
+
+N = 50,000
+
+
+INSERTION
+
+
+        PROBE COUNTS      COMPARE COUNTS     ELAPSED TIME (in microseconds)
+           4,094,879           2,062,643              25,384
+
+
+SEARCH
+
+
+        PROBE COUNTS      COMPARE COUNTS     ELAPSED TIME (in microseconds)
+           2,022,440           2,122,438                 944
+
+
+N = 60,000
+
+
+INSERTION
+
+
+        PROBE COUNTS      COMPARE COUNTS     ELAPSED TIME (in microseconds)
+           5,601,511           2,821,055              36,594
+
+
+SEARCH
+
+
+        PROBE COUNTS      COMPARE COUNTS     ELAPSED TIME (in microseconds)
+           2,770,756           2,890,754              20,730
+
+
+N = 70,000
+
+
+INSERTION
+
+
+        PROBE COUNTS      COMPARE COUNTS     ELAPSED TIME (in microseconds)
+           7,451,531           3,750,766              96,707
+
+
+SEARCH
+
+
+        PROBE COUNTS      COMPARE COUNTS     ELAPSED TIME (in microseconds)
+           3,690,766           3,830,764              16,471
+
+
+N = 80,000
+
+
+INSERTION
+
+
+        PROBE COUNTS      COMPARE COUNTS     ELAPSED TIME (in microseconds)
+           9,419,849           4,740,167              70,732
+
+
+SEARCH
+
+
+        PROBE COUNTS      COMPARE COUNTS     ELAPSED TIME (in microseconds)
+           4,669,925           4,829,923              52,065
+
+
+N = 90,000
+
+
+INSERTION
+
+
+        PROBE COUNTS      COMPARE COUNTS     ELAPSED TIME (in microseconds)
+          11,654,639           5,862,188             151,205
+
+
+SEARCH
+
+
+        PROBE COUNTS      COMPARE COUNTS     ELAPSED TIME (in microseconds)
+           5,782,320           5,962,318               5,789
+
+
+N = 100,000
+
+
+INSERTION
+
+
+        PROBE COUNTS      COMPARE COUNTS     ELAPSED TIME (in microseconds)
+          14,035,621           7,057,186              77,608
+
+
+SEARCH
+
+
+        PROBE COUNTS      COMPARE COUNTS     ELAPSED TIME (in microseconds)
+           6,967,811           7,167,809              11,877
+
+
+************
+* AVL TREE *
+************
+
+N = 10,000
+
+
+INSERTION
+
+
+       PROBE COUNTS       COMPARE COUNTS     ELAPSED TIME (in microseconds)
+             857,234             113,510               3,450
+
+
+SEARCH
+
+
+        PROBE COUNTS      COMPARE COUNTS     ELAPSED TIME (in microseconds)
+             106,958             126,956                  51
+
+
+N = 20,000
+
+
+INSERTION
+
+
+       PROBE COUNTS       COMPARE COUNTS     ELAPSED TIME (in microseconds)
+           1,899,378             261,230              17,582
+
+
+SEARCH
+
+
+        PROBE COUNTS      COMPARE COUNTS     ELAPSED TIME (in microseconds)
+             238,547             278,545                 468
+
+
+N = 30,000
+
+
+INSERTION
+
+
+       PROBE COUNTS       COMPARE COUNTS     ELAPSED TIME (in microseconds)
+           2,974,810             414,204              26,419
+
+
+SEARCH
+
+
+        PROBE COUNTS      COMPARE COUNTS     ELAPSED TIME (in microseconds)
+             382,650             442,648                   0
+
+
+N = 40,000
+
+
+INSERTION
+
+
+       PROBE COUNTS       COMPARE COUNTS     ELAPSED TIME (in microseconds)
+           4,049,466             568,920              44,982
+
+
+SEARCH
+
+
+        PROBE COUNTS      COMPARE COUNTS     ELAPSED TIME (in microseconds)
+             526,554             606,552                 102
+
+
+N = 50,000
+
+
+INSERTION
+
+
+       PROBE COUNTS       COMPARE COUNTS     ELAPSED TIME (in microseconds)
+           5,218,457             735,783              56,405
+
+
+SEARCH
+
+
+        PROBE COUNTS      COMPARE COUNTS     ELAPSED TIME (in microseconds)
+             682,795             782,793                 494
+
+
+N = 60,000
+
+
+INSERTION
+
+
+       PROBE COUNTS       COMPARE COUNTS     ELAPSED TIME (in microseconds)
+           6,382,864             904,057              66,281
+
+
+SEARCH
+
+
+        PROBE COUNTS      COMPARE COUNTS     ELAPSED TIME (in microseconds)
+             840,247             960,245               2,814
+
+
+N = 70,000
+
+
+INSERTION
+
+
+       PROBE COUNTS       COMPARE COUNTS     ELAPSED TIME (in microseconds)
+           7,564,790           1,073,603              77,415
+
+
+SEARCH
+
+
+        PROBE COUNTS      COMPARE COUNTS     ELAPSED TIME (in microseconds)
+             996,818           1,136,816                 622
+
+
+N = 80,000
+
+
+INSERTION
+
+
+       PROBE COUNTS       COMPARE COUNTS     ELAPSED TIME (in microseconds)
+           8,707,014           1,238,462              91,064
+
+
+SEARCH
+
+
+        PROBE COUNTS      COMPARE COUNTS     ELAPSED TIME (in microseconds)
+           1,153,083           1,313,081                  74
+
+
+N = 90,000
+
+
+INSERTION
+
+
+       PROBE COUNTS       COMPARE COUNTS     ELAPSED TIME (in microseconds)
+           9,892,046           1,408,987             117,973
+
+
+SEARCH
+
+
+        PROBE COUNTS      COMPARE COUNTS     ELAPSED TIME (in microseconds)
+           1,337,740           1,510,545                 136
+
+
+N = 100,000
+
+
+INSERTION
+
+
+       PROBE COUNTS       COMPARE COUNTS     ELAPSED TIME (in microseconds)
+          11,229,200           1,600,090             112,543
+
+
+SEARCH
+
+
+        PROBE COUNTS      COMPARE COUNTS     ELAPSED TIME (in microseconds)
+           1,496,781           1,696,779                  80
+
